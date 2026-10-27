@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2842 1132" fill="none" width="2842" height="1132">
+  <defs>
+    <radialGradient id="chai-glow-1" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#ffedd5" stop-opacity="0.18" />
+      <stop offset="35%" stop-color="#f97316" stop-opacity="0.08" />
+      <stop offset="70%" stop-color="#7c2d12" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="chai-glow-core" cx="50%" cy="0%" r="30%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="50%" stop-color="#fdba74" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="chai-hex-grid" width="60" height="103.923" patternUnits="userSpaceOnUse" patternTransform="scale(1)">
+      <path d="M30 0 L60 17.32 L60 51.96 L30 69.28 L0 51.96 L0 17.32 Z" stroke="rgba(255, 237, 213, 0.04)" stroke-width="1" fill="none" />
+      <path d="M30 103.92 L60 86.6 L60 51.96 L30 69.28 L0 51.96 L0 86.6 Z" stroke="rgba(255, 237, 213, 0.04)" stroke-width="1" fill="none" />
+    </pattern>
+    <linearGradient id="chai-fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <mask id="chai-mask">
+      <rect width="2842" height="1132" fill="url(#chai-fade)" />
+    </mask>
+  </defs>
+
+  <g mask="url(#chai-mask)">
+    <rect width="2842" height="1132" fill="url(#chai-glow-1)" />
+    <rect width="2842" height="600" fill="url(#chai-glow-core)" />
+    <rect width="2842" height="1132" fill="url(#chai-hex-grid)" opacity="0.8" />
+  </g>
+</svg>
